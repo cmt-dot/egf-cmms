@@ -1,0 +1,22 @@
+{
+  "name": "EGF Maintenance CMMS",
+  "short_name": "CMMS",
+  "start_url": "egf_cmms.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1F5FAD",
+  "icons": [
+    {
+      "src": "icon-cmms-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-cmms-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

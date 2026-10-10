@@ -1,0 +1,22 @@
+{
+  "name": "EGF Computer Issue Report",
+  "short_name": "Report",
+  "start_url": "egf_trainer_problem_report.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1F5FAD",
+  "icons": [
+    {
+      "src": "icon-trainer-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-trainer-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
