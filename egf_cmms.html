@@ -877,7 +877,7 @@ function renderReports(){
   <div class="row" style="margin-top:6px"><button class="btn ghost" onclick="exportCSV()">Export CSV</button><span class="muted" style="font-size:12px">Monthly trend and resolution-time charts appear once live Sheets history is connected.</span></div>`;
 }
 let SESSION=null, ME=null, TECH_ROWS=[], USER_ROWS=[], CENTER_ROWS=[];
-const SHEET_CFG={url:"https://script.google.com/macros/s/AKfycbwWsCljcRL0U7xDEsEh95Z2Sq8t4F8rImKzz8Op64hWN0BgGvgsL5NnSLmQ8c0LtDMV/exec"};
+const SHEET_CFG={url:"https://script.google.com/macros/s/AKfycbxfbXCgwqPJVOFvKyyQUyeDdpPFx10_oCU2xwfAiyNAtWdfDhYG1HLN8J_ZiFYjOlF2cg/exec"};
 const ROLE_LIST=Object.keys(ROLES);
 async function serverGet(params){
   const u=new URL(SHEET_CFG.url);
